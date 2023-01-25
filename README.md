@@ -7,7 +7,7 @@ Most of files are writen in python and bash script.
 
 Packages version information:
 
-jwst 1.6.2 version
+jwst==1.6.2 (need Python >=3.8.0)
 
 Python 3.6.13 for multiprocessing
 
