@@ -65,3 +65,7 @@ Here, u need do correct the parameters at drizzle.image3 files.
 bash $JYP/code/stage03.bash
 </code>
 </pre>
+
+***
+I gladly recommand you to correct the parameters of every source codes for customizing.
+The parameters in each code are from my experience with SMACS0723 cluster, so it may not work for your work.
