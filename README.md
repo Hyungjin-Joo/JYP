@@ -1,11 +1,16 @@
 # JYP
 This is a YOUNG versioned beta pipeline for JWST/NIRCam calibration.
+
 This pipeline starts from uncalibrated files (*uncal.fits).
+
 Most of files are writen in python and bash script.
 
 Packages version information:
+
 jwst 1.6.2 version
+
 Python 3.6.13 for multiprocessing
+
 astromatic-source-extractor 2.25.0
 
 ***
