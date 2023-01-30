@@ -15,7 +15,7 @@ And other packages in enviroment is shown at the end of this page.
 
 ***
 
-#Installation
+# Installation
 
 You can make a conda enviroment like following:
 
