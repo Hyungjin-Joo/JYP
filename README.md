@@ -8,12 +8,23 @@ Most of files are writen in python and bash script.
 Packages version information:
 
 jwst==1.6.2 (need Python >=3.8.0)
-
 astromatic-source-extractor 2.25.0
 
 ***
 
-First, export the JYP path in CMD like following:
+You can make a conda enviroment like following:
+
+<pre>
+<code>
+conda create -n jyp python
+conda activate juyp
+pip install jwst==1.6.2
+conda install astromatic-source-extractor==2.25.0
+</code>
+</pre>
+
+
+Then, export the JYP path in CMD like following:
 <pre>
 <code>
 export JYP=/path/to/JYP
