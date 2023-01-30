@@ -9,8 +9,6 @@ Packages version information:
 
 jwst==1.6.2 (need Python >=3.8.0)
 
-Python 3.6.13 for multiprocessing
-
 astromatic-source-extractor 2.25.0
 
 ***
