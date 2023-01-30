@@ -15,6 +15,8 @@ And other packages in enviroment is shown at the end of this page.
 
 ***
 
+#Installation
+
 You can make a conda enviroment like following:
 
 <pre>
@@ -34,7 +36,7 @@ export JYP=/path/to/JYP
 </code>
 </pre>
 
-
+# How to use
 
 I recommand you to make a directories like example.
 
@@ -88,9 +90,9 @@ I gladly recommand you to correct the parameters of every source codes for custo
 The parameters in each code are from my experience with SMACS0723 cluster, so it may not work for your work.
 
 ***
-Package list:
+# Package list:
 
-# Name                    Version                   Build  Channel
+Name                    Version                   Build  Channel
 
 asdf                      2.14.3                   pypi_0    pypi
 
