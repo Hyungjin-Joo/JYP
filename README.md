@@ -1,5 +1,5 @@
 # JYP
-This is a YOUNG versioned beta pipeline for JWST/NIRCam calibration.
+This is a YOUNG versioned pipeline for JWST/NIRCam calibration.
 
 This pipeline starts from uncalibrated files (*uncal.fits).
 
@@ -22,7 +22,7 @@ You can make a conda enviroment like following:
 <pre>
 <code>
 conda create -n jyp python
-conda activate juyp
+conda activate jyp
 pip install jwst==1.6.2
 conda install astromatic-source-extractor==2.25.0
 </code>
