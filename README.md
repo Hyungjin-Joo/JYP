@@ -11,7 +11,7 @@ jwst==1.6.2 (need Python >=3.8.0)
 
 astromatic-source-extractor 2.25.0
 
-And other packages in enviroment is shown at the end of this page.
+And other packages in enviroment are listed in Package.list file.
 
 ***
 
