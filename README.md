@@ -70,7 +70,7 @@ bash $JYP/code/stage02.bash
 </code>
 </pre>
 
-Then move the *cal.fits files from 02_process to 03_skycorr.
+Then move the *cal.fits files from 02_process to 02_skycorr.
 <pre>
 <code>
 bash $JYP/code/stage02_skycorr.bash
