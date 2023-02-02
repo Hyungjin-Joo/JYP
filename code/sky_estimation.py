@@ -10,7 +10,7 @@ from scipy.stats import median_abs_deviation as mad
 
 path = './'
 file_list = os.listdir(path)
-cal_list = [file for file in file_list if file.endswith("cal.fits")]
+cal_list = [file for file in file_list if file.endswith("nrcb1_cal.fits")]
 
 for tid in cal_list:
     print(tid)
@@ -20,6 +20,7 @@ for tid in cal_list:
     path2 = './expanded_map/'
     file_list2 = os.listdir(path2)
     mask_list = [file for file in file_list2 if file.startswith(target)]
+    mask_list = np.sort(mask_list)
     mask_arr = np.linspace(0.1,0.1*np.size(mask_list),1*np.size(mask_list))
     dmask_arr = (mask_arr[:-1] + mask_arr[1:])/2
 
@@ -92,16 +93,3 @@ for tid in cal_list:
     imag -= np.nanmedian(sky_arr, axis = 0)[armin]
     sci[1].data = imag
     sci.writeto(tid, overwrite = True)
-
-    #sky = np.nanmedian(sky_arr, axis = 0)[armin]
-    #std = mad(sky_arr[np.isnan(sky_arr)==False],axis = 0)
-    #fnames = np.loadtxt('sky_level.txt', usecols = (0), dtype = 'str', unpack = True)
-    #skies = np.loadtxt('sky_level.txt', usecols = (1), dtype = 'float', unpack = True)
-    #stds = np.loadtxt('sky_level.txt', usecols = (2), dtype = 'float', unpack = True)
-    #ndex = np.where(fnames == tid)
-    #skies[index] = format(sky,'.5f')
-    #stds[index] = format(std, '.5f')
-
-    #sky_file = np.concatenate(([fnames], [skies], [stds]))
-    #sky_file = sky_file.reshape(3,fnames.size)
-    #np.savetxt('sky_level.txt',sky_file.T, fmt = '%s')

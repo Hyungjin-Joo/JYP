@@ -98,3 +98,6 @@ def mask_expansion():
             segm[1].data = white_arr_2d
             segm.writeto('./expanded_map/%s_check_%1.1f.fits'%(target,ces[i]), overwrite = True)
 
+if __name__=='__main__':
+    mask_expansion()
+
