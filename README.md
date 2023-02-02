@@ -37,8 +37,8 @@ Then clone JYP where you want:
 <code>
 cd /Where/you/want/
 git clone https://github.com/Hyungjin-Joo/JYP.git
-<\code>
-<\pre>
+</code>
+</pre>
 
 Finally, export the JYP path in CMD like following:
 <pre>
