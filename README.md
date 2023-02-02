@@ -11,6 +11,8 @@ jwst==1.6.2 (need Python >=3.8.0)
 
 astromatic-source-extractor 2.25.0
 
+Also, you need to install opencv too.
+
 And other packages in enviroment are listed in Package.list file.
 
 ***
