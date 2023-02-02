@@ -31,7 +31,16 @@ conda install astromatic-source-extractor==2.25.0
 </pre>
 
 
-Then, export the JYP path in CMD like following:
+Then clone JYP where you want:
+
+<pre>
+<code>
+cd /Where/you/want/
+git clone https://github.com/Hyungjin-Joo/JYP.git
+<\code>
+<\pre>
+
+Finally, export the JYP path in CMD like following:
 <pre>
 <code>
 export JYP=/path/to/JYP
