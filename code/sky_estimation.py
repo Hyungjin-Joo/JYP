@@ -10,7 +10,7 @@ from scipy.stats import median_abs_deviation as mad
 
 path = './'
 file_list = os.listdir(path)
-cal_list = [file for file in file_list if file.endswith("nrcb1_cal.fits")]
+cal_list = [file for file in file_list if file.endswith("cal.fits")]
 
 for tid in cal_list:
     print(tid)
