@@ -26,9 +26,11 @@ You can make a conda enviroment like following:
 conda create -n jyp python
 conda activate jyp
 pip install jwst==1.9.4
-conda install astromatic-source-extractor==2.25.0
+conda install fftw -c conda-forge
+conda install astromatic-source-extractor==2.25.0 -c conda-forge
 </code>
 </pre>
+
 
 
 Then clone JYP where you want:
