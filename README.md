@@ -7,7 +7,7 @@ Most of files are writen in python and bash script.
 
 Packages version information:
 
-jwst==1.6.2 (need Python >=3.8.0)
+jwst>=1.6.2 (need Python >=3.8.0)
 
 astromatic-source-extractor 2.25.0
 
@@ -25,7 +25,7 @@ You can make a conda enviroment like following:
 <code>
 conda create -n jyp python
 conda activate jyp
-pip install jwst<=1.9.4
+pip install jwst==1.9.4
 conda install astromatic-source-extractor==2.25.0
 </code>
 </pre>
