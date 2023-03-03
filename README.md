@@ -25,7 +25,7 @@ You can make a conda enviroment like following:
 <code>
 conda create -n jyp python
 conda activate jyp
-pip install jwst==1.6.2
+pip install jwst<=1.9.4
 conda install astromatic-source-extractor==2.25.0
 </code>
 </pre>
