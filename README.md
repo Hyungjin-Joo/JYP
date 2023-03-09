@@ -86,7 +86,7 @@ bash $JYP/code/stage02.bash
 Then move the *cal.fits files from 02_process to 03_skycorr.
 <pre>
 <code>
-bash $JYP/code/stage02_skycorr.bash
+python $JYP/code/stage02_skycorr.py
 </code>
 </pre>
 
